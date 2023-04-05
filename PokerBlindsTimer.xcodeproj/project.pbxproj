@@ -11,6 +11,7 @@
 		ADD7208029DD59590029D5FD /* BlindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7207F29DD59590029D5FD /* BlindViewController.swift */; };
 		ADD7208529DD595A0029D5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD7208429DD595A0029D5FD /* Assets.xcassets */; };
 		ADD7208829DD595A0029D5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD7208629DD595A0029D5FD /* LaunchScreen.storyboard */; };
+		ADD7209329DD6D920029D5FD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7209229DD6D920029D5FD /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		ADD7208429DD595A0029D5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD7208729DD595A0029D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADD7208929DD595A0029D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD7209229DD6D920029D5FD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				ADD7209029DD5A140029D5FD /* MainModule */,
+				ADD7209129DD6D4C0029D5FD /* SettingModule */,
 				ADD7208F29DD59F40029D5FD /* Appearence */,
 			);
 			path = PokerBlindsTimer;
@@ -75,6 +78,14 @@
 				ADD7207F29DD59590029D5FD /* BlindViewController.swift */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		ADD7209129DD6D4C0029D5FD /* SettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				ADD7209229DD6D920029D5FD /* SettingsViewController.swift */,
+			);
+			path = SettingModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			files = (
 				ADD7208029DD59590029D5FD /* BlindViewController.swift in Sources */,
 				ADD7207C29DD59590029D5FD /* AppDelegate.swift in Sources */,
+				ADD7209329DD6D920029D5FD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
