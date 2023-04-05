@@ -21,16 +21,13 @@ class BlindViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // TODO: -
-//        view.backgroundColor = .white
         
         configureAppearance()
-        
-//        settingsButton.addTarget(self, action: #selector(settingsButtonAction), for: .touchUpInside)
     }
     
     @objc func settingsButtonAction() {
-        print("OK")
+        let settingVC = SettingsViewController()
+        present(settingVC, animated: true)
     }
 }
 
